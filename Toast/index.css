@@ -1,0 +1,79 @@
+*{
+    font-family: gilroy;
+}
+body{
+    background:rgb(43, 40, 40);
+   
+}
+
+.heading{
+    text-align: center;
+    color:white;
+    text-decoration: underline;
+    
+}
+
+.directions{
+    font-family: inherit;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 100%;
+    font-size: larger;
+}
+
+.content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 40%;
+  margin-left: 30%;
+  gap: 1vw;
+}
+input{
+    outline:none;
+    background: transparent;
+    border-color: white;
+    border-width: 3px;
+    color:white
+}
+
+.generatebtn{
+    padding: 10px 20px;
+    background-color: #27DFB3;
+    color: black;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    font-weight: 700;
+    font-size: larger
+}
+.toast-container{
+    position: absolute;
+    top:2rem;
+    right:2rem;
+    display: flex;
+    flex-direction: column;
+    gap:2vw;
+}
+
+.toast{
+    background: rgb(22, 254, 22);
+    color:black;
+    width:20vw;
+    height: 2vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: larger
+}
+
+.shiftend{
+   margin-left: 40%;
+   cursor: pointer;
+   font-size: larger;
+   margin-bottom: 5px;
+}

@@ -1,0 +1,21 @@
+.checkbox{
+    width:100%;
+    height:100%;
+    display:none; 
+    align-items: center;
+    justify-content: center;
+    background-color: #00D26A;
+    
+}
+#bar{
+    width:0%
+}
+/* none kr dena h click pe */
+
+
+.underline{
+    text-decoration:line-through;
+    cursor: pointer;
+    color:white;
+    background-color: black;
+}
